@@ -1,11 +1,22 @@
 # README
+# BDD
+ - admin:devise
+ - driver:devise
+ - driver_documents
+ - client
+ - Delivery
+ - Planning ????????
+
+
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 5.2.4
 
 * System dependencies
 
@@ -21,4 +32,3 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
