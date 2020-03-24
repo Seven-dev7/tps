@@ -1,10 +1,34 @@
 # README
 # BDD
  - admin:devise
+    :username ou mail
+    :mdp
  - driver:devise
+    :first_name
+    :last_name
+    :date_of_birth
+    :adress
+    :Zip_code
+    :phone
+    :vital_id
+    :email
+    :mdp
  - driver_documents
+    :id_card (carte d'identité)
+    :vital_card (attestation de secu ou CV)
+    :driver_licence
+    :declaration_doc (declaration d'embauche)
  - client
+    :name
+    :adress
+    :zip_code
+    :siret_number
+    :tva_number
+    :kbis
  - Delivery
+    :date
+    :from
+    :to
  - Planning ????????
 
 
