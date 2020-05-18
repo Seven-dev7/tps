@@ -9,6 +9,46 @@
   </div>
 
   <div class="field">
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name, autofocus: true, autocomplete: "first name" %>
+  </div>
+  <div class="field">
+    <%= f.label :last_name %><br />
+    <%= f.text_field :last_name, autofocus: true, autocomplete: "last_name" %>
+  </div>
+  <div class="field">
+    <%= f.label :date_of_birth %><br />
+    <%= f.date_field :date_of_birth, autofocus: true, autocomplete: "Bithday" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone %><br />
+    <%= f.telephone_field :phone, autofocus: true, autocomplete: "phone" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :driver_id %><br />
+    <%= f.number_field :email, autofocus: true, autocomplete: "driver id" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :vital_card %><br />
+    <%= f.number_field :email, autofocus: true, autocomplete: "vital card" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :driver_licence %><br />
+    <%= f.number_field :email, autofocus: true, autocomplete: "driver licence" %>
+  </div>
+
+
+
+  <div class="field">
+    <%= f.label :zip_code %><br />
+    <%= f.number_field :zip_code, autofocus: true, autocomplete: "zip_code" %>
+  </div>
+
+  <div class="field">
     <%= f.label :password %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
